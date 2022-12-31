@@ -57,6 +57,7 @@ header .header-right a.price {
 }
 header .header-right .menu {
   position: relative;
+  margin-right: 1.5rem;
 }
 header .header-right .menu::before {
   position: absolute;
