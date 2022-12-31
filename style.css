@@ -212,6 +212,7 @@ section.section__main section.section__subs section.section__sub-4 .sub-4__part-
   gap: 10px;
 }
 section.section__main section.section__subs section.section__sub-4 .sub-4__part-2 .hearing-process .button {
+  cursor: pointer;
   width: 35px;
   height: 35px;
   background-color: gray;
@@ -232,4 +233,27 @@ section.section__main section.section__subs section.section__sub-4 .sub-4__part-
 }
 section.section__main section.section__subs section.section__sub-4 .sub-4__part-2 p.podcast__devices {
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    padding: 2rem 8vw;
+  }
+  header .header-middle {
+    display: none;
+  }
+  header .header-right a {
+    display: none;
+  }
+  section.section__main section.section__subs {
+    flex-direction: column;
+  }
+  section.section__main section.section__subs section[class^=section__sub] {
+    border: none;
+    padding: 0;
+  }
+  section.section__main section.section__subs section.section__sub-2 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #CCCCCC;
+  }
 }/*# sourceMappingURL=style.css.map */
